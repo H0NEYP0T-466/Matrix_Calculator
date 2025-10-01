@@ -86,6 +86,14 @@ html, body {
     margin: 0 1.2vw;
 }
 
+#moving-div .move .icon-text {
+    font-size: 2vw;
+    margin: 0 1.2vw;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+}
+
 @keyframes mobe {
     0% {
         transform: translateX(0);

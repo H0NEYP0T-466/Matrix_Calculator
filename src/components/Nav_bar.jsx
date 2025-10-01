@@ -25,54 +25,54 @@ const handleLeave = () => {
 
   return (
     <div id='nav'>
-      <h1>DEV LENS.</h1>
+      <h1>MATRIX CALC.</h1>
        <div className="navpart2" 
        onMouseEnter={handleHover}
         onMouseLeave={handleLeave}>
             <div className="nav-elem">
-                <h4>Case Studies</h4>
-                <h5><span>Code Optimization</span></h5>
-                <h5><span>Security Wins</span></h5>
-                <h5><span>Scalable Builds</span></h5>
-                <h5><span>UI/UX Revamp</span></h5>
+                <h4>Operations</h4>
+                <h5><span>Addition</span></h5>
+                <h5><span>Subtraction</span></h5>
+                <h5><span>Multiplication</span></h5>
+                <h5><span>Scalar Multiply</span></h5>
 
             </div>
             <div className="nav-elem">
-                <h4>Experties</h4>
-                <h5><span>AI & ML</span></h5>
-                <h5><span>Fintech Apps</span></h5>
-                <h5><span>SaaS Platforms</span></h5>
-                <h5><span>Web 3.0</span></h5>
-                <h5><span>E-Commerce</span></h5>
+                <h4>Advanced</h4>
+                <h5><span>Determinant</span></h5>
+                <h5><span>Inverse</span></h5>
+                <h5><span>Transpose</span></h5>
+                <h5><span>Eigenvalues</span></h5>
+                <h5><span>Rank</span></h5>
             </div>
             <div className="nav-elem">
-                <h4>Tech Stack</h4>
-                <h5><span>Core Languages</span></h5>
-                <h5><span>Frameworks</span></h5>
-                <h5><span>Databases</span></h5>
-                <h5><span>Testing Suites</span></h5>
+                <h4>Matrix Types</h4>
+                <h5><span>Square</span></h5>
+                <h5><span>Diagonal</span></h5>
+                <h5><span>Identity</span></h5>
+                <h5><span>Symmetric</span></h5>
             </div>
             <div className="nav-elem">
-                <h4>AI Engine</h4>
-                <h5><span>Bug Detection</span></h5>
-                <h5><span>Speed Boost</span></h5>
-                <h5><span>Code Generation</span></h5>
-                <h5><span>Think Deeply</span></h5>
+                <h4>AI Helper</h4>
+                <h5><span>Step by Step</span></h5>
+                <h5><span>Explain Results</span></h5>
+                <h5><span>Verify Work</span></h5>
+                <h5><span>Learn Concepts</span></h5>
             </div>
             <div className="nav-elem">
-                <h4>Process </h4>
+                <h4>Features</h4>
 
-                <h5><span>Code Intake</span></h5>
-                <h5><span>AI Review</span></h5>
-                <h5><span>Human Check</span></h5>
-                <h5><span>Deployment</span></h5>
+                <h5><span>Input Matrix</span></h5>
+                <h5><span>AI Analysis</span></h5>
+                <h5><span>Get Solution</span></h5>
+                <h5><span>Export Results</span></h5>
             </div>
             <div className="nav-elem">
-                <h4>About DevLens</h4>
-                <h5><span>Innovating Code</span></h5>
-                <h5><span>Driven by AI</span></h5>
-                <h5><span>Human + Machine</span></h5>
-                <h5><span>Future Focused</span></h5>
+                <h4>About Calculator</h4>
+                <h5><span>Fast Computing</span></h5>
+                <h5><span>AI Powered</span></h5>
+                <h5><span>Easy to Use</span></h5>
+                <h5><span>Always Accurate</span></h5>
             </div>
         </div>
 

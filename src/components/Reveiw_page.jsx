@@ -32,32 +32,32 @@ const handleReviewCode = () => {
     <div className="code-review-container">
       <div className="panel code-panel">
         <div className="panel-header">
-          <h2>Your Code</h2>
+          <h2>Your Matrix Problem</h2>
         </div>
         <textarea
           className="code-input"
           value={code}
           onChange={(e) => setCode(e.target.value)}
-          placeholder="Enter your code here..."
+          placeholder="Enter your matrix question here... (e.g., 'Find the determinant of [[1,2],[3,4]]' or 'Multiply matrices A and B')"
         />
         <button 
           className="review-button" 
           onClick={handleReviewCode}
           disabled={isLoading || !code.trim()}
         >
-          {isLoading ? 'Reviewing...' : 'Review Code'}
+          {isLoading ? 'Calculating...' : 'Solve Matrix'}
         </button>
       </div>
       
       <div className="panel response-panel">
         <div className="panel-header">
-          <h2>AI Response</h2>
+          <h2>AI Solution</h2>
         </div>
         <div className="response-content">
           {aiResponse ? (
             <ReactMarkdown>{aiResponse}</ReactMarkdown>
           ) : (
-            <p className="placeholder-text">AI response will appear here after code review...</p>
+            <p className="placeholder-text">AI solution will appear here after you submit your matrix problem...</p>
           )}
         </div>
       </div>
