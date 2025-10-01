@@ -13,7 +13,8 @@ const Page = () => {
   return (
     <div>
       <div id='page1'>
-<h1>Solve Your M<span>
+<h1>S
+  <span>
   <svg className="c-bttn__morph" viewBox="0 0 64 64" aria-hidden="false" role="img" xmlns="http://www.w3.org/2000/svg">
     <title>Matrix Calculator Icon</title>
 
@@ -33,11 +34,11 @@ const Page = () => {
     <rect x="30" y="36" width="4" height="4" fill="#fff"/>
     <rect x="36" y="36" width="4" height="4" fill="#fff"/>
   </svg>
-</span>atrix</h1>
-
+</span>
+  lve Your Matrix</h1>
 
         <h1>
-            Calculations Instantly
+            Calc. Instantly
         </h1>
         <p>We empower students and professionals with AI-powered matrix calculations,<br /> from basic operations to advanced linear algebra — with capabilities in:</p>
         <div id="page1-something">
@@ -66,16 +67,13 @@ const Page = () => {
     <span className="icon-text">Aᵀ</span>
     <span className="icon-text">A⁻¹</span>
     <span className="icon-text">⊕</span>
-</div>
-
-<div className="move">
-    
     <span className="icon-text">⌈⌉</span>
     <span className="icon-text">∑</span>
-
     <span className="icon-text">λ</span>
     <span className="icon-text">∇</span>
 </div>
+
+
 
     <div id="blur-right"></div>
 </div>
