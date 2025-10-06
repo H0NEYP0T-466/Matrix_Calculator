@@ -16,7 +16,9 @@
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0",
     "react-router": "^7.9.3",
-    "react-router-dom": "^7.9.3"
+    "react-router-dom": "^7.9.3",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
