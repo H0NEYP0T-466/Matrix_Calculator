@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import './Reveiw_Page.css';
 import axios from 'axios';
 
@@ -55,7 +57,12 @@ const handleReviewCode = () => {
         </div>
         <div className="response-content">
           {aiResponse ? (
-            <ReactMarkdown>{aiResponse}</ReactMarkdown>
+            <ReactMarkdown 
+              remarkPlugins={[remarkMath]} 
+              rehypePlugins={[rehypeKatex]}
+            >
+              {aiResponse}
+            </ReactMarkdown>
           ) : (
             <p className="placeholder-text">AI solution will appear here after you submit your matrix problem...</p>
           )}
