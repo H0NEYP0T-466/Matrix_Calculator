@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🛡 Security Vulnerabilities
+    url: https://github.com/H0NEYP0T-466/Matrix_Calculator/security/policy
+    about: Please report security vulnerabilities through our security policy.
+  - name: 💬 Questions & Discussion
+    url: https://github.com/H0NEYP0T-466/Matrix_Calculator/issues
+    about: Ask questions or start a discussion about Matrix_Calculator.
